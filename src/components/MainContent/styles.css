@@ -1,0 +1,159 @@
+.main-content {
+  margin-top: 150px;
+}
+
+.main-text {
+  margin: 0 auto 37px auto;
+  max-width: 492px;
+  text-align: center;
+  color: #2a2c2f;
+}
+
+.main-text .our {
+  font-size: 21px;
+}
+
+.main-text .all {
+  font-size: 38px;
+  font-weight: 500;
+  margin-top: 15px;
+}
+
+.animal-card {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 3px;
+  width: 300px;
+  align-content: center;
+}
+
+.animal-image {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+}
+
+.card-content .card-title {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #248eb6;
+}
+
+.card-content .card-text {
+  font-weight: 500;
+  font-size: 1.2rem;
+  line-height: 15px;
+  color: #2a2c2f;
+}
+
+.first-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+  background-color: #fff;
+  padding: 10px 0;
+}
+
+.main-woman {
+  width: 35%;
+}
+
+.agency-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+  gap: 50px;
+}
+
+.agency-text {
+  font-weight: 600;
+  color: #2a2c2f;
+}
+
+.agency-text .title {
+  font-size: 3.8rem;
+  max-width: 320px;
+  color: #248eb6;
+  line-height: 55px;
+}
+
+.agency-text .text {
+  font-size: 1.8rem;
+  max-width: 380px;
+  line-height: 40px;
+  margin: 15px 0;
+}
+
+.agency-check {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-content: center;
+  gap: 25px;
+}
+
+.agency-check .check {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 1.4rem;
+}
+
+.agency-check .icon {
+  width: 12%;
+}
+
+.shop-pets {
+  display: flex;
+  column-gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  color: #2a2c2f;
+}
+
+.shop-pets .title {
+  font-weight: 500;
+  flex-basis: 100%;
+  text-align: center;
+  font-size: 3.8rem;
+  margin-bottom: 30px;
+}
+
+.shop-pets .pet-card {
+  max-width: 352px;
+}
+
+.pet-card {
+  background-color: #fff;
+  border-radius: 5px;
+  margin-bottom: 500px;
+}
+
+.pet-card .image {
+  width: 100%;
+}
+
+.pet-card .content {
+  text-align: center;
+  padding: 30px 0;
+}
+
+.pet-card .name {
+  font-size: 2.8rem;
+  margin-bottom: 16px;
+}
+
+.pet-card .text {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #2a2c2f86;
+}

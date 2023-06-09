@@ -1,0 +1,38 @@
+.container {
+  padding-top: 127px;
+  width: 85%;
+}
+
+.home-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.home-woman {
+  flex-basis: 35%;
+  width: 50%;
+  height: 50%;
+}
+
+.home-content .home-text {
+  flex-basis: 44%;
+}
+
+.home-content .home-text > h1 {
+  color: #2a2c2f;
+  font-size: 6rem;
+  font-weight: 600;
+  line-height: 80px;
+  margin-bottom: 25px;
+}
+
+.home-text > p {
+  font-size: 1.6rem;
+  line-height: 30px;
+  margin-bottom: 45px;
+}
+
+.home-text span {
+  color: #248eb6;
+}
