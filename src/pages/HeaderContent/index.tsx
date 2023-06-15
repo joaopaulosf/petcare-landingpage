@@ -1,12 +1,12 @@
 import { FC } from "react";
 import "./styles.css";
 import { HomeImage } from "./components/HomeImage";
-import { PressIt } from "../PressIt/PressIt";
+import { PressIt } from "../../components/PressIt";
 import play from "../../assets/svg/play.svg";
 
 export const HeaderContent: FC = () => {
   return (
-    <div className="home-content container">
+    <div className="home-content container" id="home">
       <div className="home-text">
         <h1>
           Established & Trusted Pet <span>Care Service</span>

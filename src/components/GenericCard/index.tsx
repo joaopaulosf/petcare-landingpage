@@ -1,21 +1,24 @@
 import { ReactNode } from "react";
-import "./styles.css";
 
 interface CardProps<T> {
   renderItem: (item: T) => ReactNode;
   keyExtractor: (item: T) => string;
   data: T[];
+  cardClass?: string;
 }
 
 export const GenericCard = <T extends unknown>({
   data,
   renderItem,
   keyExtractor,
+  cardClass,
 }: CardProps<T>) => {
   return (
     <>
       {data.map((item) => (
-        <div key={keyExtractor(item)}>{renderItem(item)}</div>
+        <div className={cardClass} key={keyExtractor(item)}>
+          {renderItem(item)}
+        </div>
       ))}
     </>
   );

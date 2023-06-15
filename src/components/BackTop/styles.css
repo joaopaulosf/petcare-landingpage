@@ -1,0 +1,13 @@
+.back-to-top {
+  position: fixed;
+  bottom: 60px;
+  right: 80px;
+  z-index: 1;
+}
+
+.back-to-top button {
+  padding: 12px;
+  background-color: #248eb6;
+  border-radius: 25px;
+  border: none;
+}

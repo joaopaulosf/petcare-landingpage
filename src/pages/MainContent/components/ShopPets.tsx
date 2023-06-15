@@ -1,4 +1,4 @@
-import { GenericCard } from "../../GenericCard";
+import { GenericCard } from "../../../components/GenericCard";
 import catshop from "../../../assets/images/cat-shop.png";
 import dogshop from "../../../assets/images/dog-shop.png";
 import rabbitshop from "../../../assets/images/rabbit-shop.png";
@@ -29,14 +29,15 @@ export const ShopPets = () => {
           },
         ]}
         keyExtractor={({ id }) => id}
+        cardClass="pet-card"
         renderItem={({ image, text, pet }) => (
-          <div className="pet-card">
+          <>
             <img className="image" src={image} alt="pet-image" />
             <div className="content">
               <p className="name">{pet}</p>
               <p className="text">{text}</p>
             </div>
-          </div>
+          </>
         )}
       />
     </div>

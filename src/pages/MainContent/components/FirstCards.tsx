@@ -1,4 +1,4 @@
-import { GenericCard } from "../../GenericCard";
+import { GenericCard } from "../../../components/GenericCard";
 import cat from "../../../assets/images/cat.jpg";
 import dog from "../../../assets/images/dog.png";
 import catanddog from "../../../assets/images/cat-and-dog.png";
@@ -8,7 +8,6 @@ export const FirstCards: FC = () => {
   return (
     <div className="first-cards">
       <GenericCard
-        keyExtractor={({ id }) => id}
         data={[
           {
             id: "1",
@@ -32,14 +31,16 @@ export const FirstCards: FC = () => {
               "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
           },
         ]}
+        keyExtractor={({ id }) => id}
+        cardClass="animal-card"
         renderItem={({ image, title, content }) => (
-          <div className="animal-card">
+          <>
             <img className="animal-image" src={image} alt="pet-image" />
             <div className="card-content">
               <h1 className="card-title">{title}</h1>
               <p className="card-text">{content}</p>
             </div>
-          </div>
+          </>
         )}
       />
     </div>

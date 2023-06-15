@@ -6,14 +6,26 @@ body {
   font-size: 10px;
   height: 100%;
   background-color: #fafafa;
+  color: #2a2c2f;
+  scroll-behavior: smooth;
 }
 
 .container {
-  max-width: 1520px;
+  max-width: 1280px;
   margin: 0 auto;
+  width: 85%;
+}
+
+h1 {
+  font-size: 38px;
+  font-weight: 500;
 }
 
 a {
   text-decoration: none;
   color: #2a2c2f;
+}
+
+button {
+  cursor: pointer;
 }

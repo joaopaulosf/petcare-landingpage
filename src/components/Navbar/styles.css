@@ -1,8 +1,18 @@
+.navigation-bar {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+.active {
+  background-color: #fafafa;
+}
+
 .nav-bar {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 10px;
+  padding: 10px 0;
   font-size: 1.6rem;
 }
 

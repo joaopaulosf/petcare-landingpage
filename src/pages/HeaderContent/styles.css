@@ -1,22 +1,18 @@
-.container {
-  padding-top: 127px;
-  width: 85%;
-}
-
 .home-content {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-wrap: wrap;
+  padding-top: 127px;
 }
 
 .home-woman {
-  flex-basis: 35%;
+  flex-basis: 38%;
   width: 50%;
   height: 50%;
 }
 
 .home-content .home-text {
-  flex-basis: 44%;
+  flex-basis: 38%;
 }
 
 .home-content .home-text > h1 {
@@ -35,4 +31,22 @@
 
 .home-text span {
   color: #248eb6;
+}
+
+.home-text > button {
+  background-color: #248eb6;
+  color: #fafafa;
+  width: 140px;
+  height: 42px;
+  border-radius: 25px;
+  border: none;
+  font-weight: 800;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.home-text .btn-icon {
+  width: 18px;
 }

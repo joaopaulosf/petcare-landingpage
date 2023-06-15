@@ -1,6 +1,7 @@
-import { HeaderContent } from "./components/HeaderContent";
-import { MainContent } from "./components/MainContent";
 import { Navbar } from "./components/Navbar";
+import { HeaderContent } from "./pages/HeaderContent";
+import { MainContent } from "./pages/MainContent";
+import { FooterContent } from "./pages/FooterContent";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Navbar />
       <HeaderContent />
       <MainContent />
+      <FooterContent />
     </>
   );
 }

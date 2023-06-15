@@ -1,0 +1,43 @@
+.footer-content {
+  display: flex;
+  padding: 60px 0;
+  background-color: #fff;
+}
+
+.footer-content a {
+  font-size: 1.2rem;
+}
+
+.footer-content .content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.left-content .brand-icon {
+  width: 49px;
+  height: 61px;
+}
+
+.left-content .sociais {
+  display: flex;
+  gap: 10px;
+}
+
+.right-content {
+  display: flex;
+  gap: 30px;
+  text-align: end;
+  line-height: 22px;
+}
+
+.right-content h1 {
+  font-size: 1.8rem;
+  margin-bottom: 19px;
+}

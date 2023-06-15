@@ -1,11 +1,11 @@
-import { GenericCard } from "../../GenericCard";
+import { GenericCard } from "../../../components/GenericCard";
 import check from "../../../assets/svg/check-circle.svg";
 import woman from "../../../assets/images/woman-with-dog.png";
 import { FC } from "react";
 
 export const AgencyInfo: FC = () => {
   return (
-    <div className="agency-info">
+    <div className="agency-info" id="about">
       <img className="main-woman" src={woman} alt="woman-with-dog" />
       <div className="agency-text">
         <h1 className="title">Best Agency For Your Pet.</h1>
@@ -38,11 +38,12 @@ export const AgencyInfo: FC = () => {
               },
             ]}
             keyExtractor={({ id }) => id}
+            cardClass="check"
             renderItem={({ icon, text }) => (
-              <div className="check">
+              <>
                 <img className="icon" src={icon} alt="check-icon" />
                 <span>{text}</span>
-              </div>
+              </>
             )}
           />
         </div>
