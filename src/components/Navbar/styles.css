@@ -4,45 +4,37 @@
   z-index: 2;
 }
 
-.active {
-  background-color: #fafafa;
-}
-
 .nav-bar {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
   padding: 10px 0;
   font-size: 1.6rem;
-}
-
-.nav-bar .brand-icon {
-  width: 49px;
-  height: 61px;
-}
-
-.nav-bar .nav-links {
-  display: flex;
-  gap: 15px;
-}
-
-.nav-bar .nav-auth {
-  display: flex;
-  gap: 15px;
-}
-
-.nav-bar .link > a {
-  padding: 10px 24px;
-  transition: 0.3s;
-  border: 1px solid transparent;
-}
-
-.nav-bar .link > a:hover {
-  border-bottom: 1px solid #2a2c2f;
 }
 
 .nav-bar .sign-up > a {
   background-color: #248eb6;
   color: #fafafa;
   border-radius: 5px;
+}
+
+.active {
+  background-color: #fafafa;
+}
+
+.menu span {
+  display: block;
+  width: 27px;
+  height: 0.3rem;
+  margin: 0.3rem 0;
+  background: #2a2c2f;
+}
+
+#menu {
+  display: none;
+}
+
+#checkBox {
+  display: none;
 }

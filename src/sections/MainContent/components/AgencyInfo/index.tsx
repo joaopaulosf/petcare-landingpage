@@ -1,7 +1,8 @@
-import { GenericCard } from "../../../components/GenericCard";
-import check from "../../../assets/svg/check-circle.svg";
-import woman from "../../../assets/images/woman-with-dog.png";
+import { GenericCard } from "../../../../components/GenericCard";
+import check from "../../../../assets/svg/check-circle.svg";
+import woman from "../../../../assets/images/woman-with-dog.png";
 import { FC } from "react";
+import "./styles.css";
 
 export const AgencyInfo: FC = () => {
   return (
@@ -29,7 +30,7 @@ export const AgencyInfo: FC = () => {
               {
                 id: "3",
                 icon: check,
-                text: "10+ Years of Experience",
+                text: "10+ Years of Exp",
               },
               {
                 id: "4",

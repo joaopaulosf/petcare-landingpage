@@ -1,7 +1,7 @@
 import { Navbar } from "./components/Navbar";
-import { HeaderContent } from "./pages/HeaderContent";
-import { MainContent } from "./pages/MainContent";
-import { FooterContent } from "./pages/FooterContent";
+import { HeaderContent } from "./sections/HeaderContent";
+import { MainContent } from "./sections/MainContent";
+import { FooterContent } from "./sections/FooterContent";
 
 function App() {
   return (

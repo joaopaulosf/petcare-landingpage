@@ -1,0 +1,51 @@
+.agency-info {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 100px 0;
+  gap: 50px;
+}
+
+.main-woman {
+  width: 50%;
+  flex-basis: 30%;
+}
+
+.agency-text {
+  font-weight: 600;
+  color: #2a2c2f;
+}
+
+.agency-text .title {
+  font-size: 3.8rem;
+  max-width: 320px;
+  color: #248eb6;
+  line-height: 55px;
+}
+
+.agency-text .text {
+  font-size: 1.8rem;
+  max-width: 380px;
+  line-height: 40px;
+  margin: 15px 0;
+}
+
+.agency-check {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-content: center;
+  gap: 10px;
+}
+
+.agency-check .check {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 1.4rem;
+}
+
+.agency-check .icon {
+  width: 24px;
+}

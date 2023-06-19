@@ -1,7 +1,8 @@
-import { GenericCard } from "../../../components/GenericCard";
-import firstDoctor from "../../../assets/images/doctor-01.png";
-import secondDoctor from "../../../assets/images/doctor-02.png";
-import thirdDoctor from "../../../assets/images/doctor-03.png";
+import { GenericCard } from "../../../../components/GenericCard";
+import firstDoctor from "../../../../assets/images/doctor-01.png";
+import secondDoctor from "../../../../assets/images/doctor-02.png";
+import thirdDoctor from "../../../../assets/images/doctor-03.png";
+import "./styles.css";
 
 export const OurVets = () => {
   return (

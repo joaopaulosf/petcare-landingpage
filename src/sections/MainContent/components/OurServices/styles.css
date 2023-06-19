@@ -1,0 +1,39 @@
+.our-services {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  padding: 100px 0;
+}
+
+.our-services .first-title {
+  flex-basis: 100%;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.our-services .content {
+  background-color: #fff;
+  text-align: center;
+  padding: 30px 50px;
+  max-width: 252px;
+  border-radius: 5px;
+}
+
+.our-services .icon {
+  width: 40%;
+  margin-bottom: 10px;
+}
+
+.text-content .title {
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+
+.text-content .text {
+  font-size: 1.4rem;
+  opacity: 0.5;
+  padding: 15px 0;
+  font-weight: 700;
+  line-height: 20px;
+}

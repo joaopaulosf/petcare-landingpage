@@ -1,8 +1,9 @@
 import { FC } from "react";
-import { GenericCard } from "../../../components/GenericCard";
-import truck from "../../../assets/svg/truck-delivery.svg";
-import cash from "../../../assets/svg/cash-delivery.svg";
-import hours from "../../../assets/svg/hour-delivery.svg";
+import { GenericCard } from "../../../../components/GenericCard";
+import truck from "../../../../assets/svg/truck-delivery.svg";
+import cash from "../../../../assets/svg/cash-delivery.svg";
+import hours from "../../../../assets/svg/hour-delivery.svg";
+import "./styles.css";
 
 export const OurServices: FC = () => {
   return (

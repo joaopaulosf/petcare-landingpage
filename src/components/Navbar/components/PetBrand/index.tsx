@@ -1,5 +1,6 @@
 import { FC } from "react";
-import brand from "../../../assets/images/pet-brand.png";
+import brand from "../../../../assets/images/pet-brand.png";
+import "./styles.css";
 
 export const PetBrand: FC = () => {
   return (

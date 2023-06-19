@@ -1,0 +1,16 @@
+.main-text {
+  margin: 30px auto;
+  max-width: 492px;
+  text-align: center;
+  color: #2a2c2f;
+}
+
+.main-text .our {
+  font-size: 21px;
+}
+
+.main-text .all {
+  font-size: 38px;
+  font-weight: 500;
+  margin-top: 15px;
+}

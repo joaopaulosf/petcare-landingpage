@@ -1,7 +1,8 @@
-import { GenericCard } from "../../../components/GenericCard";
-import catshop from "../../../assets/images/cat-shop.png";
-import dogshop from "../../../assets/images/dog-shop.png";
-import rabbitshop from "../../../assets/images/rabbit-shop.png";
+import { GenericCard } from "../../../../components/GenericCard";
+import catshop from "../../../../assets/images/cat-shop.png";
+import dogshop from "../../../../assets/images/dog-shop.png";
+import rabbitshop from "../../../../assets/images/rabbit-shop.png";
+import "./styles.css";
 
 export const ShopPets = () => {
   return (

@@ -1,0 +1,41 @@
+.first-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+  background-color: #fff;
+  padding: 10px 0;
+}
+
+.animal-card {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 3px;
+  width: 300px;
+  align-content: center;
+}
+
+.animal-image {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+}
+
+.card-content .card-title {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #248eb6;
+}
+
+.card-content .card-text {
+  font-weight: 500;
+  font-size: 1.2rem;
+  line-height: 15px;
+  color: #2a2c2f;
+}

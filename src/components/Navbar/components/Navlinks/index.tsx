@@ -1,4 +1,5 @@
 import { FC } from "react";
+import "./styles.css";
 
 export const NavLinks: FC = () => {
   return (
@@ -15,6 +16,12 @@ export const NavLinks: FC = () => {
         </li>
         <li className="link">
           <a href="#blog">Blog</a>
+        </li>
+        <li className="log-in link">
+          <a href="#">Log in</a>
+        </li>
+        <li className="sign-up link">
+          <a href="#">Sign up</a>
         </li>
       </ul>
     </nav>

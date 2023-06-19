@@ -1,8 +1,9 @@
-import { GenericCard } from "../../../components/GenericCard";
-import cat from "../../../assets/images/cat.jpg";
-import dog from "../../../assets/images/dog.png";
-import catanddog from "../../../assets/images/cat-and-dog.png";
+import { GenericCard } from "../../../../components/GenericCard";
+import cat from "../../../../assets/images/cat.jpg";
+import dog from "../../../../assets/images/dog.png";
+import catanddog from "../../../../assets/images/cat-and-dog.png";
 import { FC } from "react";
+import "./styles.css";
 
 export const FirstCards: FC = () => {
   return (

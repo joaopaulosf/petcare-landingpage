@@ -10,6 +10,8 @@
 
 .footer-content .content {
   display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
   justify-content: space-between;
 }
 

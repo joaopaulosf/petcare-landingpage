@@ -5,14 +5,8 @@
   padding-top: 127px;
 }
 
-.home-woman {
-  flex-basis: 38%;
-  width: 50%;
-  height: 50%;
-}
-
 .home-content .home-text {
-  flex-basis: 38%;
+  flex-basis: 40%;
 }
 
 .home-content .home-text > h1 {
@@ -33,7 +27,7 @@
   color: #248eb6;
 }
 
-.home-text > button {
+.home-text .press-it {
   background-color: #248eb6;
   color: #fafafa;
   width: 140px;

@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 import { ReactNode } from "react";
 
 interface CardProps<T> {
@@ -5,6 +6,7 @@ interface CardProps<T> {
   keyExtractor: (item: T) => string;
   data: T[];
   cardClass?: string;
+  hasMotion?: boolean;
 }
 
 export const GenericCard = <T extends unknown>({
@@ -12,13 +14,16 @@ export const GenericCard = <T extends unknown>({
   renderItem,
   keyExtractor,
   cardClass,
+  hasMotion = false,
 }: CardProps<T>) => {
+  const CardComponent = hasMotion ? motion.div : "div";
+
   return (
     <>
       {data.map((item) => (
-        <div className={cardClass} key={keyExtractor(item)}>
+        <CardComponent className={cardClass} key={keyExtractor(item)}>
           {renderItem(item)}
-        </div>
+        </CardComponent>
       ))}
     </>
   );

@@ -1,0 +1,235 @@
+@media only screen and (max-width: 1080px) {
+  nav {
+    flex-basis: 100%;
+    overflow: hidden;
+    height: 0;
+  }
+
+  #checkBox:checked ~ nav {
+    height: auto;
+  }
+
+  #menu {
+    display: block;
+  }
+
+  .nav-bar .nav-links {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-links .link {
+    border-bottom: #22222210 solid 0.0625rem;
+    width: 100%;
+  }
+
+  .nav-links .link:nth-child(5) {
+    border-bottom: none;
+  }
+
+  .nav-links .link:last-child {
+    border-bottom: none;
+  }
+
+  .nav-bar .link > a {
+    display: block;
+    text-align: center;
+  }
+
+  .nav-links .log-in {
+    margin-left: 0;
+  }
+
+  .home-content {
+    gap: 80px;
+  }
+
+  .home-content .home-text {
+    flex-basis: 100%;
+    max-width: 60%;
+    margin: 0 auto;
+  }
+
+  .home-content .home-woman {
+    flex-basis: 50%;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .first-cards .animal-card {
+    flex-basis: 50%;
+  }
+
+  .agency-info {
+    gap: 80px;
+  }
+
+  .agency-info .main-woman {
+    flex-basis: 50%;
+    margin: 0 auto;
+  }
+
+  .agency-info .agency-text {
+    flex-basis: 50%;
+    max-width: 50%;
+  }
+
+  .shop-pets .pet-card {
+    max-width: 30%;
+  }
+
+  .our-vets {
+    gap: 25px;
+  }
+
+  .our-vets .vets-info {
+    flex-basis: 40%;
+  }
+
+  .vets-info .content p {
+    font-size: 1.6rem;
+  }
+
+  .client-review .feed-back {
+    height: 500px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .home-content .home-text {
+    max-width: 100%;
+  }
+
+  .home-content .home-text > h1 {
+    font-size: 4rem;
+    line-height: 50px;
+  }
+
+  .agency-info .agency-text {
+    max-width: 80%;
+    flex-basis: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+  }
+
+  .agency-text .text {
+    font-size: 1.6rem;
+    line-height: 30px;
+  }
+
+  .agency-text .title {
+    max-width: 100%;
+  }
+
+  .agency-text .text {
+    max-width: 100%;
+  }
+
+  .agency-text .agency-check {
+    width: 100%;
+  }
+
+  .shop-pets .pet-card {
+    max-width: 60%;
+  }
+
+  .our-vets .vets-info {
+    flex-basis: 80%;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  h1 {
+    font-size: 2.4rem;
+  }
+
+  .home-content .home-text > h1 {
+    font-size: 3rem;
+    line-height: 35px;
+  }
+
+  .home-text > p {
+    font-size: 1.3rem;
+    line-height: 25px;
+  }
+
+  .home-text .press-it {
+    width: 130px;
+    height: 35px;
+  }
+
+  .home-content .home-woman {
+    flex-basis: 100%;
+  }
+
+  .main-text .our {
+    font-size: 1.6rem;
+  }
+
+  .main-text .all {
+    font-size: 2.4rem;
+  }
+
+  .first-cards .animal-card {
+    flex-basis: 80%;
+    gap: 10px;
+  }
+
+  .agency-info .main-woman {
+    flex-basis: 80%;
+  }
+
+  .agency-text .title {
+    font-size: 2.2rem;
+  }
+
+  .agency-text .text {
+    font-size: 1.3rem;
+    line-height: 25px;
+  }
+
+  .agency-check .check {
+    font-size: 1.2rem;
+  }
+
+  .agency-check .icon {
+    width: 18px;
+  }
+
+  .shop-pets .pet-card {
+    max-width: 100%;
+  }
+
+  .pet-card .name {
+    font-size: 2.2rem;
+  }
+
+  .pet-card .text {
+    font-size: 1.6rem;
+  }
+
+  .vets-info .content h1 {
+    font-size: 2.2rem;
+  }
+
+  .vets-info .content p {
+    font-size: 1.3rem;
+    line-height: 18px;
+  }
+
+  .left-content {
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .right-content {
+    margin: 0 auto;
+  }
+
+  .back-to-top {
+    right: 40px;
+    bottom: 40px;
+  }
+}

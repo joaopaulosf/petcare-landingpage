@@ -1,0 +1,17 @@
+.nav-bar .nav-links {
+  display: flex;
+  gap: 15px;
+}
+
+.nav-bar .link > a {
+  padding: 10px 24px;
+  transition: 0.3s;
+}
+
+.nav-bar .link > a:hover {
+  opacity: 0.5;
+}
+
+.nav-links .log-in {
+  margin-left: 55px;
+}

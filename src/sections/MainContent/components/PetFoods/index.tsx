@@ -1,8 +1,9 @@
-import { GenericCard } from "../../../components/GenericCard";
-import { PressIt } from "../../../components/PressIt";
-import catFood from "../../../assets/images/cat-food.png";
-import dogFood from "../../../assets/images/dog-food.png";
+import { GenericCard } from "../../../../components/GenericCard";
+import { PressIt } from "../../../../components/PressIt";
+import catFood from "../../../../assets/images/cat-food.png";
+import dogFood from "../../../../assets/images/dog-food.png";
 import { ReactNode } from "react";
+import "./styles.css";
 
 interface FoodItemProps {
   id: string;
