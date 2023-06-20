@@ -10,26 +10,27 @@
 }
 
 .home-content .home-text > h1 {
-  color: #2a2c2f;
-  font-size: 6rem;
+  color: var(--color-dark);
+  font-size: var(--size-big-home-text);
   font-weight: 600;
   line-height: 80px;
   margin-bottom: 25px;
 }
 
 .home-text > p {
-  font-size: 1.6rem;
+  font-size: var(--size-small);
   line-height: 30px;
   margin-bottom: 45px;
+  pointer-events: none;
 }
 
 .home-text span {
-  color: #248eb6;
+  color: var(--color-secondary);
 }
 
 .home-text .press-it {
-  background-color: #248eb6;
-  color: #fafafa;
+  background-color: var(--color-secondary);
+  color: var(--color-primary);
   width: 140px;
   height: 42px;
   border-radius: 25px;

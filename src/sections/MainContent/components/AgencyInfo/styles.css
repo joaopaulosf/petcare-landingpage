@@ -18,14 +18,14 @@
 }
 
 .agency-text .title {
-  font-size: 3.8rem;
+  font-size: var(--size-big-title);
   max-width: 320px;
-  color: #248eb6;
+  color: var(--color-secondary);
   line-height: 55px;
 }
 
 .agency-text .text {
-  font-size: 1.8rem;
+  font-size: var(--size-small);
   max-width: 380px;
   line-height: 40px;
   margin: 15px 0;
@@ -43,7 +43,7 @@
   display: flex;
   align-items: center;
   gap: 6px;
-  font-size: 1.4rem;
+  font-size: var(--size-small-text);
 }
 
 .agency-check .icon {

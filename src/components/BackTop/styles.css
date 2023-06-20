@@ -7,7 +7,7 @@
 
 .back-to-top button {
   padding: 12px;
-  background-color: #248eb6;
+  background-color: var(--color-secondary);
   border-radius: 25px;
   border: none;
 }

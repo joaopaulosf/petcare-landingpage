@@ -5,8 +5,8 @@ body {
   font-family: "Poppins", sans-serif;
   font-size: 10px;
   height: 100%;
-  background-color: #fafafa;
-  color: #2a2c2f;
+  background-color: var(--color-primary);
+  color: var(--color-dark);
   scroll-behavior: smooth;
 }
 
@@ -17,8 +17,9 @@ body {
 }
 
 h1 {
-  font-size: 38px;
+  font-size: var(--size-big-title);
   font-weight: 500;
+  pointer-events: none;
 }
 
 a {

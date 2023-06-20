@@ -1,5 +1,9 @@
 :root {
+  --size-small-text: 1.3rem;
   --size-small: 1.6rem;
-  --size-medium: 2.4rem;
+  --size-medium: 2.1rem;
+  --size-medium-text: 2.8rem;
   --size-big: 3.2rem;
+  --size-big-title: 3.8rem;
+  --size-big-home-text: 6rem;
 }

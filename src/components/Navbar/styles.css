@@ -10,17 +10,17 @@
   justify-content: space-between;
   flex-wrap: wrap;
   padding: 10px 0;
-  font-size: 1.6rem;
+  font-size: var(--size-small);
 }
 
 .nav-bar .sign-up > a {
-  background-color: #248eb6;
+  background-color: var(--color-secondary);
   color: #fafafa;
   border-radius: 5px;
 }
 
 .active {
-  background-color: #fafafa;
+  background-color: var(--color-primary);
 }
 
 .menu span {
@@ -28,7 +28,7 @@
   width: 27px;
   height: 0.3rem;
   margin: 0.3rem 0;
-  background: #2a2c2f;
+  background: var(--color-dark);
 }
 
 #menu {

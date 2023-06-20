@@ -19,7 +19,6 @@
   }
 
   .nav-links .link {
-    border-bottom: #22222210 solid 0.0625rem;
     width: 100%;
   }
 
@@ -87,7 +86,7 @@
   }
 
   .vets-info .content p {
-    font-size: 1.6rem;
+    font-size: var(--size-small);
   }
 
   .client-review .feed-back {
@@ -101,7 +100,7 @@
   }
 
   .home-content .home-text > h1 {
-    font-size: 4rem;
+    font-size: var(--size-big-title);
     line-height: 50px;
   }
 
@@ -115,7 +114,7 @@
   }
 
   .agency-text .text {
-    font-size: 1.6rem;
+    font-size: var(--size-small);
     line-height: 30px;
   }
 
@@ -149,18 +148,18 @@
   }
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 420px) {
   h1 {
-    font-size: 2.4rem;
+    font-size: var(--size-medium);
   }
 
   .home-content .home-text > h1 {
-    font-size: 3rem;
+    font-size: var(--size-medium-text);
     line-height: 35px;
   }
 
   .home-text > p {
-    font-size: 1.3rem;
+    font-size: var(--size-small-text);
     line-height: 25px;
   }
 
@@ -174,11 +173,11 @@
   }
 
   .main-text .our {
-    font-size: 1.6rem;
+    font-size: var(--size-small);
   }
 
   .main-text .all {
-    font-size: 2.4rem;
+    font-size: var(--size-medium);
   }
 
   .first-cards .animal-card {
@@ -191,16 +190,16 @@
   }
 
   .agency-text .title {
-    font-size: 2.2rem;
+    font-size: var(--size-medium);
   }
 
   .agency-text .text {
-    font-size: 1.3rem;
+    font-size: var(--size-small-text);
     line-height: 25px;
   }
 
   .agency-check .check {
-    font-size: 1.2rem;
+    font-size: var(--size-small-text);
   }
 
   .agency-check .icon {
@@ -212,19 +211,19 @@
   }
 
   .pet-card .name {
-    font-size: 2.2rem;
+    font-size: var(--size-medium);
   }
 
   .pet-card .text {
-    font-size: 1.6rem;
+    font-size: var(--size-small);
   }
 
   .vets-info .content h1 {
-    font-size: 2.2rem;
+    font-size: var(--size-medium);
   }
 
   .vets-info .content p {
-    font-size: 1.3rem;
+    font-size: var(--size-small-text);
     line-height: 18px;
   }
 

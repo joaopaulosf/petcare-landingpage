@@ -1,11 +1,11 @@
 .footer-content {
   display: flex;
   padding: 60px 0;
-  background-color: #fff;
+  background-color: var(--color-light);
 }
 
 .footer-content a {
-  font-size: 1.2rem;
+  font-size: var(--size-small-text);
 }
 
 .footer-content .content {
@@ -40,6 +40,6 @@
 }
 
 .right-content h1 {
-  font-size: 1.8rem;
+  font-size: var(--size-small);
   margin-bottom: 19px;
 }

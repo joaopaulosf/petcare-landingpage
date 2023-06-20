@@ -1,5 +1,7 @@
 :root {
-  --color-primary: #fff;
-  --color-secondary: #2a2c2f;
-  --color-ternary: #333;
+  --color-light: #fff;
+  --color-dark: #2a2c2f;
+  --color-primary: #fafafa;
+  --color-secondary: #248eb6;
+  --color-button-foods: #d1ebf5;
 }

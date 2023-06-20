@@ -13,7 +13,7 @@
 }
 
 .our-services .content {
-  background-color: #fff;
+  background-color: var(--color-light);
   text-align: center;
   padding: 30px 50px;
   max-width: 252px;
@@ -26,14 +26,15 @@
 }
 
 .text-content .title {
-  font-size: 1.7rem;
+  font-size: var(--size-small);
   font-weight: 600;
 }
 
 .text-content .text {
-  font-size: 1.4rem;
+  font-size: var(--size-small-text);
   opacity: 0.5;
   padding: 15px 0;
   font-weight: 700;
   line-height: 20px;
+  pointer-events: none;
 }

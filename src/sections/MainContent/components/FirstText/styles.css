@@ -2,15 +2,16 @@
   margin: 30px auto;
   max-width: 492px;
   text-align: center;
-  color: #2a2c2f;
+  color: var(--color-dark);
+  pointer-events: none;
 }
 
 .main-text .our {
-  font-size: 21px;
+  font-size: var(--size-medium);
 }
 
 .main-text .all {
-  font-size: 38px;
+  font-size: var(--size-big-title);
   font-weight: 500;
   margin-top: 15px;
 }

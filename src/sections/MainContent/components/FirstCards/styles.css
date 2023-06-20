@@ -3,8 +3,9 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 50px;
-  background-color: #fff;
+  background-color: var(--color-light);
   padding: 10px 0;
+  pointer-events: none;
 }
 
 .animal-card {
@@ -28,14 +29,14 @@
 }
 
 .card-content .card-title {
-  font-size: 1.6rem;
+  font-size: var(--size-small);
   font-weight: 500;
-  color: #248eb6;
+  color: var(--color-secondary);
 }
 
 .card-content .card-text {
   font-weight: 500;
-  font-size: 1.2rem;
+  font-size: var(--size-small-text);
   line-height: 15px;
-  color: #2a2c2f;
+  color: var(--color-dark);
 }
