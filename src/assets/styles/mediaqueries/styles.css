@@ -138,6 +138,15 @@
   .our-vets .vets-info {
     flex-basis: 80%;
   }
+
+  .left-content {
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .right-content {
+    margin: 0 auto;
+  }
 }
 
 @media only screen and (max-width: 375px) {
@@ -217,15 +226,6 @@
   .vets-info .content p {
     font-size: 1.3rem;
     line-height: 18px;
-  }
-
-  .left-content {
-    align-items: center;
-    margin: 0 auto;
-  }
-
-  .right-content {
-    margin: 0 auto;
   }
 
   .back-to-top {
