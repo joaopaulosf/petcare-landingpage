@@ -1,12 +1,6 @@
-import { FC } from "react";
+import { btnProps } from "../../sections/models";
 
-type btnProps = {
-  text: string;
-  handleClick?: () => void;
-  btnIcon?: string;
-};
-
-export const PressIt: FC<btnProps> = ({ text, handleClick, btnIcon }) => {
+export const PressIt = ({ text, handleClick, btnIcon }: btnProps) => {
   return (
     <>
       <button className="press-it" onClick={handleClick}>

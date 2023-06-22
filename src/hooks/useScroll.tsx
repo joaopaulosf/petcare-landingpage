@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
 
-export const useScroll = () => {
-  const [scrollState, setScrollState] = useState(false);
+export const useScroll = (): boolean => {
+  const [scrollState, setScrollState] = useState<boolean>(false);
 
-  const changeScrollState = () => {
+  const changeScrollState = (): void => {
     if (window.scrollY >= 80) {
       setScrollState(true);
     } else {

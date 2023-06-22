@@ -1,7 +1,6 @@
-import { FC } from "react";
 import "./styles.css";
 
-export const FirstText: FC = () => {
+export const FirstText = () => {
   return (
     <div className="main-text">
       <p className="our">OUR SERVICES</p>

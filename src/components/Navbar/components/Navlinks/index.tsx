@@ -1,7 +1,6 @@
-import { FC } from "react";
 import "./styles.css";
 
-export const NavLinks: FC = () => {
+export const NavLinks = () => {
   return (
     <nav>
       <ul className="nav-links">

@@ -1,10 +1,9 @@
-import { FC } from "react";
 import { NavLinks } from "./components/Navlinks";
 import { PetBrand } from "./components/PetBrand";
 import "./styles.css";
 import { useScroll } from "../../hooks/useScroll";
 
-export const Navbar: FC = () => {
+export const Navbar = () => {
   const nav = useScroll();
 
   return (

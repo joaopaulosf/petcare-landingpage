@@ -1,10 +1,9 @@
 import { GenericCard } from "../../../../components/GenericCard";
-import check from "../../../../assets/svg/check-circle.svg";
 import woman from "../../../../assets/images/woman-with-dog.png";
-import { FC } from "react";
+import { AgencyData, checkItems } from "./utils";
 import "./styles.css";
 
-export const AgencyInfo: FC = () => {
+export const AgencyInfo = () => {
   return (
     <div className="agency-info" id="about">
       <img className="main-woman" src={woman} alt="woman-with-dog" />
@@ -16,36 +15,10 @@ export const AgencyInfo: FC = () => {
         </p>
         <div className="agency-check">
           <GenericCard
-            data={[
-              {
-                id: "1",
-                icon: check,
-                text: "Certified Grommer",
-              },
-              {
-                id: "2",
-                icon: check,
-                text: "Animal Lover",
-              },
-              {
-                id: "3",
-                icon: check,
-                text: "10+ Years of Exp",
-              },
-              {
-                id: "4",
-                icon: check,
-                text: "Pet Parents",
-              },
-            ]}
+            data={checkItems}
             keyExtractor={({ id }) => id}
             cardClass="check"
-            renderItem={({ icon, text }) => (
-              <>
-                <img className="icon" src={icon} alt="check-icon" />
-                <span>{text}</span>
-              </>
-            )}
+            renderItem={AgencyData}
           />
         </div>
       </div>

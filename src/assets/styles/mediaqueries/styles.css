@@ -20,6 +20,7 @@
 
   .nav-links .link {
     width: 100%;
+    border-bottom: #22222210 solid 0.0625rem;
   }
 
   .nav-links .link:nth-child(5) {
@@ -87,10 +88,6 @@
 
   .vets-info .content p {
     font-size: var(--size-small);
-  }
-
-  .client-review .feed-back {
-    height: 500px;
   }
 }
 

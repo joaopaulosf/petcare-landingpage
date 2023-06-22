@@ -3,6 +3,7 @@ import catshop from "../../../../assets/images/cat-shop.png";
 import dogshop from "../../../../assets/images/dog-shop.png";
 import rabbitshop from "../../../../assets/images/rabbit-shop.png";
 import "./styles.css";
+import { RenderProps } from "../../../models";
 
 export const ShopPets = () => {
   return (
@@ -12,30 +13,30 @@ export const ShopPets = () => {
         data={[
           {
             id: "1",
+            title: "CATS",
             image: catshop,
-            pet: "CATS",
             text: "307 PRODUCTS",
           },
           {
             id: "2",
-            pet: "DOGS",
+            title: "DOGS",
             image: dogshop,
             text: "307 PRODUCTS",
           },
           {
             id: "3",
-            pet: "RABBITS",
+            title: "RABBITS",
             image: rabbitshop,
             text: "307 PRODUCTS",
           },
         ]}
         keyExtractor={({ id }) => id}
         cardClass="pet-card"
-        renderItem={({ image, text, pet }) => (
+        renderItem={({ image, title, text }: RenderProps) => (
           <>
             <img className="image" src={image} alt="pet-image" />
             <div className="content">
-              <p className="name">{pet}</p>
+              <p className="name">{title}</p>
               <p className="text">{text}</p>
             </div>
           </>
