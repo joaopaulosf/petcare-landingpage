@@ -1,6 +1,6 @@
 import { GenericCard } from "../../../../components/GenericCard";
 import woman from "../../../../assets/images/woman-with-dog.png";
-import { AgencyData, checkItems } from "./utils";
+import { AgencyRender, checkData } from "./utils";
 import "./styles.css";
 
 export const AgencyInfo = () => {
@@ -15,10 +15,10 @@ export const AgencyInfo = () => {
         </p>
         <div className="agency-check">
           <GenericCard
-            data={checkItems}
+            data={checkData}
             keyExtractor={({ id }) => id}
             cardClass="check"
-            renderItem={AgencyData}
+            renderItem={AgencyRender}
           />
         </div>
       </div>
