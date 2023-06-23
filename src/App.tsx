@@ -1,16 +1,6 @@
-import { Navbar } from "./components/Navbar";
-import { HeaderContent } from "./sections/HeaderContent";
-import { MainContent } from "./sections/MainContent";
-import { FooterContent } from "./sections/FooterContent";
+import { Main } from "./pages/Main";
 
 function App() {
-  return (
-    <>
-      <Navbar />
-      <HeaderContent />
-      <MainContent />
-      <FooterContent />
-    </>
-  );
+  return <Main />;
 }
 export default App;
